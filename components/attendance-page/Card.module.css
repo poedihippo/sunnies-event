@@ -1,0 +1,161 @@
+.card {
+  background-color: #fff;
+  width: 100%;
+  padding: 27px 47px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.card_container {
+  display: flex;
+}
+
+.image_user {
+  margin-right: 24px;
+}
+
+.initial_user {
+  width: 90px;
+  height: 90px;
+  background-color: #4fc6e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content h2 {
+  margin: 0 0 8px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #2b3944;
+}
+
+.content p {
+  margin: 0 0 8px 0;
+}
+
+.basic_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.basic_info p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  color: #2b3944;
+}
+
+.basic_info br {
+  display: none;
+}
+
+.date p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #9b9b9b;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address_detail {
+  width: 60%;
+}
+
+.address_detail p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #9b9b9b;
+}
+
+.inv {
+  padding: 4px 16px;
+  border-radius: 16px;
+  background-color: #6c5dde;
+  color: #fff;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.action {
+  display: flex;
+}
+
+.action_mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 787px) {
+  .action {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .initial_user {
+    width: 60px;
+    height: 60px;
+  }
+
+  .image_user {
+    margin-right: 14px;
+  }
+
+  .basic_info {
+    flex-direction: column-reverse;
+  }
+
+  .basic_info br {
+    display: block;
+  }
+
+  .basic_info span {
+    display: none;
+  }
+
+  .content h2 {
+    font-size: 14px;
+  }
+
+  .address {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .address_detail p {
+    display: none;
+  }
+
+  .action {
+    display: none;
+  }
+
+  .action_mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile_btn {
+    width: 45%;
+  }
+}

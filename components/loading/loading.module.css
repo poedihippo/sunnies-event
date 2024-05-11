@@ -1,0 +1,54 @@
+.loading {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.loading_page {
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#f9f0d3, #fffefa);
+}
+
+.enter_id {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 3rem;
+  flex-direction: column;
+}
+
+.not_found {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 3rem;
+  flex-direction: column;
+}
+
+.not_found h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 31px 0 8px 0;
+  color: #e71332;
+  text-align: center;
+}
+
+.not_found p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #2b3944;
+}
